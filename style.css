@@ -17,15 +17,6 @@ p {
   transition-delay: 0.3s ;
 }
 
-/* 👇 الاتجاهات قبل الظهور */
-.f, .t {
-  transform: translateX(80px); /* من اليمين */
-}
-
-.s, .fo {
-  transform: translateX(-80px); /* من اليسار */
-}
-
 /* 👇 لما العنصر يظهر */
 .show {
   opacity: 1;
@@ -39,3 +30,4 @@ details {
   padding-bottom: 10px;
   background-color: #d4d4d4;
 }
+
